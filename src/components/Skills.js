@@ -8,12 +8,12 @@ const Skills = () => {
     data-aos-easing="linear"
     data-aos-duration="2000"
       className="skills-container"
-      style={{marginTop:"3rem"}}
+     
       name="skills"
     
       id="skills"
     >
-      <h1  className="heading text-gradient-purple">What I Am Good At &nbsp;?</h1>
+      <h1 style={{marginTop:"6rem"}}  className="heading text-gradient-purple">What I am Good At &nbsp;?</h1>
 <div className="skill_border">
 <div className="techs" >
         <li>
