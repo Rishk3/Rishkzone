@@ -788,6 +788,8 @@ body {
     width: 100%;
     min-height: 500px;
     position: absolute;
+    color: #fff;
+
     top: 9vh;
     text-align: center;
     align-items: center;
@@ -797,7 +799,7 @@ body {
   }
 
   .nav-links.active {
-    background: rgba(255, 255, 255, 0.911);
+    background: rgba(41, 41, 41, 0.911);
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
@@ -835,12 +837,7 @@ body {
 
 @media screen and (max-width: 700px) {
   .svg-container {
-    margin-top: 1.5rem;
-    width: 50vw;
-    height: 36rem;
-    display: flex;
     align-items: center;
-    justify-content: center;
   }
 
   .svg {
