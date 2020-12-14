@@ -9,6 +9,7 @@ body {
   background: rgb(8, 8, 8);
   height: 100vh;
   color: #fff;
+  overflow-x: hidden;
 }
 .text-gradient {
   background: linear-gradient(
@@ -202,13 +203,13 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
-  width: 100%;
+  max-width: 100%;
   min-height: 50vh;
   flex-direction: column;
   font-family: "Exo 2", sans-serif;
 
   font-size: 1.3rem;
-  padding: 1rem;
+  margin: 1rem 2rem;
 }
 .services-container {
   margin-top: 3rem;
@@ -236,6 +237,11 @@ body {
   height: 9rem;
 
   text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .services {
+    width: 300px;
+  }
 }
 
 .services:hover {
