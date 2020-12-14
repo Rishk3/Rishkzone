@@ -765,7 +765,7 @@ body {
 /* 1150 Breakpoint */
 @media screen and (max-width: 1150px) {
   .home-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .content-container {
     padding-top: 5rem;
