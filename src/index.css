@@ -427,8 +427,18 @@ body {
   background-repeat: no-repeat;
   object-fit: contain;
 }
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 #bdayWisher {
   background-image: url("./images/bday.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#whatsappLyser {
+  background-image: url("./images/whatsdata.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -520,6 +530,12 @@ body {
 }
 #problem {
   background-image: url("./images/certificates/problem_solving.png");
+  background-size: cover;
+  object-fit: contain;
+  background-repeat: no-repeat;
+}
+#resumeImg {
+  background-image: url("./images/resume_img.png");
   background-size: cover;
   object-fit: contain;
   background-repeat: no-repeat;

@@ -42,7 +42,7 @@ const Nav = () => {
         <i className={navClicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
       {/* // */}
-      <ul className={ navClicked ? "nav-links active" : "nav-links" }>
+      <ul className={navClicked ? "nav-links active" : "nav-links"}>
         <li className="link">
           <Link
             className={navbar ? "anchor is-active" : "anchor"}
@@ -99,7 +99,7 @@ const Nav = () => {
             offset={0}
             duration={500}
           >
-            Portfolio
+            Projects
           </Link>
         </li>
 
@@ -115,6 +115,20 @@ const Nav = () => {
             duration={500}
           >
             Achievements
+          </Link>
+        </li>
+        <li className="link">
+          <Link
+            className="anchor"
+            activeClass="active"
+            to="resume"
+            delay={100}
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+          >
+            Resume
           </Link>
         </li>
 
@@ -133,16 +147,19 @@ const Nav = () => {
           </Link>
         </li>
         <li className="link">
-        <a href="https://github.com/Rishk3"  rel="noopener noreferrer" target="_blank"><div
-            className="anchor"
-            activeClass="active"
-           style={{fontSize:"24px"}}
+          <a
+            href="https://github.com/Rishk3"
+            rel="noopener noreferrer"
+            target="_blank"
           >
-            
-            <i className="fab react fa-github"></i>
-  
-          </div></a>
-          
+            <div
+              className="anchor"
+              activeclass="active"
+              style={{ fontSize: "24px" }}
+            >
+              <i className="fab react fa-github"></i>
+            </div>
+          </a>
         </li>
       </ul>
     </motion.div>
