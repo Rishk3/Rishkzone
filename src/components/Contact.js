@@ -22,15 +22,15 @@ const Contact = () => {
         <div style={{margin:"1rem"}} className="color_border">
         <div className="cards">
           <div className="contact-icons">
-          <a style={{color:"#fff",textDecoration:"none"}} rel="noopener noreferrer" target="_blank" href="mailto:rishikesh8821@gmail.com"><i className="fas fa-envelope"></i></a>
+          <a style={{color:"#fff",textDecoration:"none"}} rel="noopener noreferrer" target="_blank" href="mailto:rishikesh3321@gmail.com"><i className="fas fa-envelope"></i></a>
           
           </div>
           <div className="contact-text">
           Send email
           </div>
           <div className="contact-links">
-          <a style={{color:"#fff",textDecoration:"none"}} rel="noopener noreferrer" target="_blank" href="mailto:rishikesh8821@gmail.com">
-          <span>rishikesh8821@gmail.com</span> </a>
+          <a style={{color:"#fff",textDecoration:"none"}} rel="noopener noreferrer" target="_blank" href="mailto:rishikesh3321@gmail.com">
+          <span>rishikesh3321@gmail.com</span> </a>
           </div>
         </div>
           </div>
@@ -83,7 +83,7 @@ const Contact = () => {
             className="social_icon"
               rel="noopener noreferrer"
               target="_blank"
-              href="https://api.whatsapp.com/send?phone=+918423766435&text=Hey, I Saw your Portfolio"
+              href="https://api.whatsapp.com/send?phone=+917355608802&text=Hey, I Saw your Portfolio"
             >
               <i style={{fontSize:"25px",color:"#fff",backgroundColor:"#25D366",borderRadius:"50%"}}
                 className="fab fa-whatsapp"

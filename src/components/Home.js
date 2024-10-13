@@ -118,7 +118,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-                Web Developer |  React Developer
+                Web Developer |  React Developer (4yrs+ Exp)
               </motion.h2>
             )}
           </AnimatePresence>
@@ -132,7 +132,7 @@ const Home = () => {
                 animate="animate"
                 initial="initial"
               >
-               Student by day, Developer by night
+              Full-Stack Developer, Proficient in Java Spring Boot and Node.js
               </motion.h2>
             )}
           </AnimatePresence>

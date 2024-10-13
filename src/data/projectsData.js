@@ -6,10 +6,10 @@ export const myprojects = [
     gitLink: "https://github.com/Rishk3/Chit_Chat",
   },
   {
-    id: "webrtc",
-    title: "WebRtc Group Chat",
-    liveLink: "https://morning-brushlands-28304.herokuapp.com",
-    gitLink: "https://github.com/Rishk3",
+    id: "fighterJet",
+    title: "FighterJet SpaceCraft",
+    liveLink: "https://github.com/Rishk3/SpaceJet-Fighter",
+    gitLink: "https://github.com/Rishk3/SpaceJet-Fighter",
   },
 
   {
@@ -27,7 +27,7 @@ export const myprojects = [
   {
     id: "covid_stat",
     title: "Covid19 Stats",
-    liveLink: "https://musing-leavitt-d95e9a.netlify.app/",
+    liveLink: "https://github.com/Rishk3/covid19_stats",
     gitLink: "https://github.com/Rishk3/covid19_stats",
   },
   {

@@ -54,7 +54,7 @@ function NumberList(props) {
       id="portfolio"
     >
       {" "}
-      <h1 className="heading text-gradient">Projects I have Built</h1>
+      <h1 className="heading text-gradient">Personal Projects I have Built</h1>
       <div className="flex">{listItems}</div>
       <a
         rel="noopener noreferrer"

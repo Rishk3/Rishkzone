@@ -2,6 +2,7 @@ import React from "react";
 import "./../index.css";
 import uiImage from "./../images/ui.svg";
 import webImage from "./../images/web.svg";
+import javaImg from "./../images/java.png";
 
 const Services = () => {
   return (
@@ -11,7 +12,7 @@ const Services = () => {
       name="services"
       id="services"
     >
-      <h1 className="heading text-gradient">Services Provided By me</h1>  
+      <h1 className="heading text-gradient" style={{textAlign:'center'}}>Extensive Experience in Development and Innovation of</h1>  
       <div className="service-item services-wrapper">
       <div className="color_border">
         <div className="services">
@@ -31,6 +32,15 @@ const Services = () => {
           </li>
         </div>
       </div>
+      <div  style={{marginTop:'2rem'}} className="service-item color_border">
+        <div className="services">
+          <li>
+            <img src={javaImg} alt="" />
+            <p></p>
+          </li>
+        </div>
+      </div>
+     
   
       </div>
     </section>
