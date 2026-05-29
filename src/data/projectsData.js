@@ -40,6 +40,6 @@ export const myprojects = [
     id: "bdayWisher",
     title: "BirthDay Wisher",
     liveLink: "https://youthful-aryabhata-c56703.netlify.app/",
-    gitLink: "https://github.com/Rishk3/Rishk3_birthday_msg",
+    gitLink: "https://github.com/Rishk3/rishy_birthday_msg",
   },
 ];
