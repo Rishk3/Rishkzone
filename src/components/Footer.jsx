@@ -21,7 +21,7 @@ const Footer = () => {
 
           {/* Center: Copyright */}
           <p className="text-zinc-600 text-xs text-center">
-            &copy; {year} Rishikesh Kumar &amp;
+            &copy; {year} Rishikesh Kumar
           </p>
 
           {/* Right: Social icons */}
